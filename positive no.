@@ -1,0 +1,7 @@
+l=[]
+l2=[]
+l=[int(i) for i in input().split()]
+for i in l:
+    if(i>0):
+        l2.append(i)
+print(l2)
